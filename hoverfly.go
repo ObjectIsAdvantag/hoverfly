@@ -2,7 +2,7 @@ package main
 
 import (
 	log "github.com/Sirupsen/logrus"
-	"github.com/elazarl/goproxy"
+	goproxy "gopkg.in/elazarl/goproxy.v1"
 
 	"bufio"
 	"flag"

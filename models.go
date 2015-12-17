@@ -10,7 +10,7 @@ import (
 	"net/http/httputil"
 
 	log "github.com/Sirupsen/logrus"
-	"github.com/elazarl/goproxy"
+	goproxy "gopkg.in/elazarl/goproxy.v1"
 	"github.com/garyburd/redigo/redis"
 	"io/ioutil"
 )
